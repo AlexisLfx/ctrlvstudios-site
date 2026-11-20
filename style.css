@@ -49,3 +49,11 @@ a{color:var(--accent)}
 .crumbs{color:var(--muted);font-size:20px;margin-top:10px}
 footer{padding:36px 0 46px;color:var(--muted);font-size:20px;text-align:center;border-top:2px solid var(--line);margin-top:30px;background:rgba(1,3,10,.5)}
 footer a{color:var(--muted)}
+/* Clown Screams: tema de terror solo en sus páginas */
+body.cs{--bg:#0b0507;--surface:#170a0d;--line:#3a1218;--text:#f1e6e2;--muted:#b39a96;--accent:#ff3b3b;--danger:#ff3b3b;--spark:#ffd35c;background:radial-gradient(ellipse at 50% -10%,#3b0c14 0,var(--bg) 45%,#000 100%) fixed}
+body.cs .title{text-shadow:-3px 0 rgba(255,59,59,.85),3px 0 rgba(120,0,40,.9)}
+body.cs .doc h1{text-shadow:-2px 0 rgba(255,59,59,.85),2px 0 rgba(120,0,40,.9)}
+.cs .clown{width:min(240px,60vw);height:auto;border:3px solid var(--line);box-shadow:0 0 40px rgba(255,59,59,.35);animation:flicker 7s steps(1) infinite}
+@keyframes flicker{0%,93%,100%{opacity:1}94%{opacity:.35}95%{opacity:1}97%{opacity:.6}}
+@media (prefers-reduced-motion:reduce){.cs .clown{animation:none}}
+.warn{border:2px solid var(--danger);color:var(--danger);padding:6px 12px;font-size:20px;display:inline-block;margin:6px}
