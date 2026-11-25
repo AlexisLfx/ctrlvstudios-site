@@ -61,3 +61,4 @@ body.tc{--bg:#3a0b44;--surface:#5a1466;--line:#ffb400;--text:#fff6e8;--muted:#f3
 body.tc .title{color:#ffb400;text-shadow:0 4px 0 #5e0f3c,0 0 24px rgba(255,180,0,.35)}
 body.tc .doc h1{color:#ffb400}
 .tc .chef{width:min(260px,62vw);height:auto;filter:drop-shadow(0 10px 24px rgba(0,0,0,.35))}
+.doc table{width:100%;border-collapse:collapse;margin:.8em 0}.doc th,.doc td{border:1px solid var(--line);padding:.5em;text-align:left;vertical-align:top}.doc th{color:var(--accent)}
