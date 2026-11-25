@@ -57,3 +57,7 @@ body.cs .doc h1{text-shadow:-2px 0 rgba(255,59,59,.85),2px 0 rgba(120,0,40,.9)}
 @keyframes flicker{0%,93%,100%{opacity:1}94%{opacity:.35}95%{opacity:1}97%{opacity:.6}}
 @media (prefers-reduced-motion:reduce){.cs .clown{animation:none}}
 .warn{border:2px solid var(--danger);color:var(--danger);padding:6px 12px;font-size:20px;display:inline-block;margin:6px}
+body.tc{--bg:#3a0b44;--surface:#5a1466;--line:#ffb400;--text:#fff6e8;--muted:#f3d7f0;--accent:#ffb400;--spark:#3cc43c;background:linear-gradient(180deg,#c2307a 0,#7a1e8c 55%,#3a0b44 100%) fixed}
+body.tc .title{color:#ffb400;text-shadow:0 4px 0 #5e0f3c,0 0 24px rgba(255,180,0,.35)}
+body.tc .doc h1{color:#ffb400}
+.tc .chef{width:min(260px,62vw);height:auto;filter:drop-shadow(0 10px 24px rgba(0,0,0,.35))}
